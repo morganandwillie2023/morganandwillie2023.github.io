@@ -50,7 +50,7 @@ a {
 	text-decoration: none;
 	color:black;
 }
-* {background-color: #1f6131}
+* {background-color: #46545F}
 
 /* Custom stuff */
 .outerContainer {
@@ -68,26 +68,54 @@ a {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-
+	border-radius: 10%;
 }
 
 .text {
-	background-color: transparent;
+	height: 100vh;
+	width: 100vw;
 	position: fixed;
+	top: 0vh;
+	background-color: transparent;
 	margin-left: auto;
 	margin-right: auto;
-	top: 10vh;
-	left: 39vw;
 }
 
 .text p {
-	font-size: 3vmax;
 	color: white;
 	background-color: transparent;
 	text-align: center;
+	font-family: 'Dancing Script', cursive;
 }
 
-.padding {
-	height: 3vh;
+.text div {
 	background-color: transparent;
+}
+
+.title {
+	font-size: 7vmin;
+}
+
+.details {
+	font-size: 4vmin;
+}
+
+.bottom {
+	font-size: 4vmin;
+}
+
+.p1 {
+	height: 7vh;
+}
+
+.p2 {
+	height: 4vh;
+}
+
+.p3 {
+	height: 67vh;
+}
+
+.p4 {
+	height: 3vh;
 }
