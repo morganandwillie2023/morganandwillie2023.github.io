@@ -68,7 +68,7 @@ a {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	border-radius: 10%;
+	border-radius: 7.5%;
 }
 
 .text {
@@ -101,7 +101,7 @@ a {
 }
 
 .bottom {
-	font-size: 4vmin;
+	font-size: 5vmin;
 }
 
 .p1 {
@@ -113,9 +113,5 @@ a {
 }
 
 .p3 {
-	height: 67vh;
-}
-
-.p4 {
-	height: 3vh;
+	height: 66vh;
 }
