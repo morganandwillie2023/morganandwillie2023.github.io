@@ -64,6 +64,7 @@ a {
 .background {
 	width: auto;
 	height: 100vh;
+	min-height: -webkit-fill-available;
 	overflow: auto;
 	display: block;
 	margin-left: auto;
@@ -73,7 +74,9 @@ a {
 
 .text {
 	height: 100vh;
+	min-height: -webkit-fill-available;
 	width: 100vw;
+	min-width: -webkit-fill-available;
 	position: fixed;
 	top: 0vh;
 	background-color: transparent;
